@@ -1,0 +1,323 @@
+/*cab*/
+body{background-image: url('peter-feghali-fibrknjbpUo-unsplash.jpg');
+	background-repeat: no-repeat;
+background-size:cover;}
+
+		.main-cab{max-width:500px;
+				border:3.5px solid #2E0340;
+				margin-top:90px;
+				margin-left:auto;
+				margin-right:auto;
+				margin-bottom:120px;
+				padding:10px 25px 30px;
+				font-size:19px;
+				background:white;
+				background-size:cover;
+				border-radius:18px;
+				box-shadow: 0px 8px 16px 0px;}
+		.main-cab>h2{color:#2E0340;}
+		.cabfrom{margin-bottom:12px;}
+		.cabdate{margin-bottom:12px;}
+		.cab-search-btn{margin-top:20px;
+				color:white;
+				font-size:13px;
+				padding:2px 15px;
+				background-color:#2E0340;
+				border:none;
+				border-radius:15px;
+				cursor:pointer;
+				}
+		.cab-search-btn:hover {
+			background-color: white;
+			transition:0.5s;
+			color: #2E0340;
+			box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);}
+		.cab-search-btn .fas {font-size:18px;}
+				/*========================================================================================*/
+		.grid-container-1 {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top:50px;
+				display: grid;
+				grid-template-columns: 2fr 2fr 2fr;
+				grid-gap: 20px;
+				border:2px solid #2E0340;
+				border-radius:15px;
+				padding: 15px;
+				width:850px;
+				height:340px;
+				box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+				font-family: Arial;
+				font-size:15px;
+				background-color: white;
+		}
+		.grid-container-1 > div {
+			text-align: center;  
+			}
+		.cab-11{
+			  height:50px;
+				font-size:15px;
+				padding:0px 12px;
+				position:relative;
+				color:#2E0340;
+				border-top:1px solid #2E0340;
+				border-left:1px solid #2E0340;
+				border-right:2px solid #2E0340;
+				border-bottom:2px solid #2E0340;
+				border-radius:15px;
+				background:white;
+				cursor: pointer;}
+		.cab-11:hover{
+				background-color: #2E0340;
+				color: white;
+				box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}			
+		.dropdown-content-cab-11{
+				display: none;
+				margin-top:5px;
+				border-radius:10%;
+				position: absolute;
+				background-color: #f1f1f1;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+				width:850px; 
+					}
+		.show {display: block;}
+/*======================================================================================*/
+
+		.grid-container-2 {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top:10px;
+				display: grid;
+				grid-template-columns: 2fr 2fr 2fr;
+				grid-gap: 20px;
+				border:2px solid #2E0340;
+				border-radius:15px;
+				padding: 15px;
+				width:850px;
+				height:340px;
+				box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+				font-family: Arial;
+				font-size:15px;
+				background-color: white;
+		}
+		.grid-container-2 > div {
+			text-align: center;  
+			}
+		.cab-12{
+			  height:50px;
+				font-size:15px;
+				padding:0px 12px;
+				position:relative;
+				color:#2E0340;
+				border-top:1px solid #2E0340;
+				border-left:1px solid #2E0340;
+				border-right:2px solid #2E0340;
+				border-bottom:2px solid #2E0340;
+				border-radius:15px;
+				background:white;
+				cursor: pointer;}
+		.cab-12:hover{
+				background-color: #2E0340;
+				color: white;
+				box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}			
+		.dropdown-content-cab-12{
+				display: none;
+				margin-top:5px;
+				border-radius:10%;
+				position: absolute;
+				background-color: #f1f1f1;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+				width:850px; 
+					}
+		.show {display: block;}
+		/*========================================================================================*/
+		
+		.grid-container-3 {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top:10px;
+				display: grid;
+				grid-template-columns: 2fr 2fr 2fr;
+				grid-gap: 20px;
+				border:2px solid #2E0340;
+				border-radius:15px;
+				padding: 15px;
+				width:850px;
+				height:340px;
+				box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+				font-family: Arial;
+				font-size:15px;
+				background-color: white;
+		}
+		.grid-container-3 > div {
+			text-align: center;  
+			}
+		.cab-13{
+			  height:50px;
+				font-size:15px;
+				padding:0px 12px;
+				position:relative;
+				color:#2E0340;
+				border-top:1px solid #2E0340;
+				border-left:1px solid #2E0340;
+				border-right:2px solid #2E0340;
+				border-bottom:2px solid #2E0340;
+				border-radius:15px;
+				background:white;
+				cursor: pointer;}
+		.cab-13:hover{
+				background-color: #2E0340;
+				color: white;
+				box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}			
+		.dropdown-content-cab-13{
+				display: none;
+				margin-top:5px;
+				border-radius:10%;
+				position: absolute;
+				background-color: #f1f1f1;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+				width:850px; 
+					}
+		.show {display: block;}
+/*========================================================================================*/
+	.grid-container-4 {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top:10px;
+				margin-bottom:70px;
+				display: grid;
+				grid-template-columns: 2fr 2fr 2fr;
+				grid-gap: 20px;
+				border:2px solid #2E0340;
+				border-radius:15px;
+				padding: 15px;
+				width:850px;
+				height:340px;
+				box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+				font-family: Arial;
+				font-size:15px;
+				background-color: white;
+		}
+		.grid-container-4 > div {
+			text-align: center;  
+			}
+		.cab-14{
+			  height:50px;
+				font-size:15px;
+				padding:0px 12px;
+				position:relative;
+				color:#2E0340;
+				border-top:1px solid #2E0340;
+				border-left:1px solid #2E0340;
+				border-right:2px solid #2E0340;
+				border-bottom:2px solid #2E0340;
+				border-radius:15px;
+				background:white;
+				cursor: pointer;}
+		.cab-14:hover{
+				background-color: #2E0340;
+				color: white;
+				box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}			
+		.dropdown-content-cab-14{
+				display: none;
+				margin-top:5px;
+				border-radius:10%;
+				position: absolute;
+				background-color: #f1f1f1;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+				width:850px; 
+					}
+.show {display: block;}
+/*======================================================================================*/
+.close {cursor:pointer;
+		position:absolute;
+		right:7px;
+		top:10px;
+		width:28px;
+		height:29px;
+		background:#2E0340;
+		color:#fff;
+		font-size:26px;
+		font-weight:450;
+		line-height:30px;
+		border-radius:50%;
+		}
+.close:hover {
+		background-color: white;
+		color:#2E0340;
+		box-shadow:0 15px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+.item1 {grid-row-start: 1;
+		grid-row-end: 1;
+		color:#2E0340;
+		border-bottom:2px solid #2E0340;	
+		}
+.item2 {grid-row-start: 1;
+		grid-row-end: 2;
+		border-bottom:2px solid #2E0340;
+		}
+.item3 {grid-row-start: 1;
+		grid-row-end: 2;
+		border-bottom:2px solid #2E0340;
+		}
+.item4 {grid-row-start: 2;
+		grid-row-end:2 ;
+		margin-top:-10px;	
+		}
+.item4>p{font-size:12px;}
+.item5{	grid-row-start: 2;
+		grid-row-end: 3;
+		}
+.item6 {grid-row-start: 2;
+		grid-row-end: 4;
+		}
+.item7{	grid-row-start: 3;
+		grid-row-end: 4;
+		}
+.search-btn-1{
+		width:125px;
+		height:40px;
+		font-size:16px;
+		padding:0px 12px;
+		font-family:poppins;
+		color:white;
+		border:0;
+		border-radius:15px;
+		background:#2E0340;
+		}
+.search-btn-1:hover {
+		background-color:white ;
+		color: #2E0340;
+		box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}	
+.grid-container-cab {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 5px;
+		background-color: white;
+		padding: 20px;
+		height:205px;
+		border:2px solid #2E0340;
+		border-radius:15px;
+		}
+.grid-container-cab > div {
+		text-align: center;
+		font-size: 17px;
+		}
+.item10{grid-row-start: 1;
+		grid-row-end: 2;}
+.item11{grid-row-start: 1;
+		grid-row-end: 2;}
+.item12{grid-row-start: 1;
+		grid-row-end: 2;}
+.item13{grid-row-start: 2;
+		grid-row-end: 2;}
+.item14{grid-row-start: 2;
+		grid-row-end: 2;}
+.item15{grid-row-start: 2;
+		grid-row-end: 2;}
+/*======================================================================================*/

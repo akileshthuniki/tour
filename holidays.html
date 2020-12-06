@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tour</title> 
+	<link href="logo.jpg" rel ="icon"/>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet"href="style.css">
+	<link rel="stylesheet"href="holidays-style.css">
+	
+</head>
+<body>
+<nav class = "nav">
+	<form action="index.html"><button class="logo-btn">Tour</button></form>
+	<div class = "nav-links">
+		<a></a>
+		<a href="flight.html"> Flight</a>
+		<a href="train.html"> Train</i></a>
+		<a href="bus.html"> Bus</a>
+		<a href="cab.html"> Cab</a>
+		<a href="hotels.html"> Hotels</a>	
+		<a href="holidays.html"> Holidays</a>	
+		<div class="animation start-flight"></div>
+	</div>
+</nav>
+<!---------------------------------------------------------------------------------------->
+	<div class="main-holiday">
+	<h2>Book Domestic and international holidays:</h2>
+		<div class="holiday-location">
+			<label>Depart from</label>
+				<select name="s1">
+				<option >Hyderabad</option>
+				<option>DELHI</option>
+				<option>MUMBAI</option>
+				<option>GOA</option>
+				<option>CHENNAI</option>
+				<option>BANGALORE</option>
+				<option>PUNE</option>
+				</select>
+			<label>Going to</label>
+				<select name="s1">
+				<option>manali</option>
+				<option>DELHI</option>
+				<option>Hyderabad</option>
+				<option>MUMBAI</option>
+				<option>GOA</option>
+				<option>CHENNAI</option>
+				<option>BANGALORE</option>
+				<option>PUNE</option>
+				</select>
+		</div>
+		<div class="holiday-date">		
+			<lable>Select dates </lable>
+			<input type="date" size="30" select=date >
+		</div>
+		<div class="people">
+			<label>Traveller's and Room </label>
+			<input type="number" class="holiday-traveller" value="1" min="1" max="10">
+			<div class= "holiday-age" >
+				<label>Adult </label>	
+				<input type="number" class="number-btn" value="1" min="1" max="10">
+				<br></br>
+				<label>child(2-12 years)</label>
+				<input type="number" class="number-btn" value="0" min="0" max="10">
+			</div>
+		</div>
+		<form action="holiday-search.html"><button class="holiday-search-btn"><h3>Search holidays &nbsp;<i class="fas fa-arrow-circle-right"></i></h3></button></form>	
+	</div>
+<!-------------------------------------------------------------------->
+<footer>
+<div class="main-content">
+	<div class="left box">
+		<h2> About us</h2>
+		<div class="content">
+			<span class="fas fa-map-marker-alt"></span>
+			<span class="address-text">&nbsp; Address, City, Country.</span>
+			<div class="phone">
+				<span class="fas fa-phone-alt"></span>
+				<span class="phone-text">&nbsp; +00 0000 000 000</span>
+			</div>
+			<div class="mail">
+				<span class="fas fa-envelope"></span>
+				<span class="mail-text">&nbsp; contact@email.com</span>
+			</div>
+			<div class="soical">
+				<a href="#"><span class="fab fa-facebook-f"></span></a>&nbsp; 
+				<a href="#"><span class="fab fa-twitter"></span></a>&nbsp; 
+				<a href="#"><span class="fab fa-instagram"></span></a>&nbsp; 
+				<a href="#"><span class="fab fa-youtube"></span></a>
+			</div>
+		</div>
+	</div>
+	<div class="center box">
+		<h2> Quick links</h2>
+		<ul class="quicklinks">
+			<li><a href="flight.html"> Flight</a></li>
+			<li><a href="train.html"> Train</a></li>
+			<li><a href="bus.html"> Bus</a></li>
+			<li><a href="cab.html"> Cab</a></li>
+			<li><a href="hotels.html"> Hotels</a></li>
+			<li><a href="holidays.html"> Holidays</a></li>	
+		</ul>
+	</div>
+	<div class="right box">
+		<h2> Contact us</h2>
+		<form action="#">
+			<div class="email">
+				<input type="email" required placeholder="Your email address....">
+			</div>
+			<div class="msg">
+				<textarea required placeholder="Message...."></textarea>
+			</div>
+			<button class="contact-btn" type="submit">send 
+			<i class="fas fa-paper-plane"></i></button>
+		
+		</form>
+	</div>
+</div>
+<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Yours.</p>
+	</div>
+</footer>
+<script src="travel	.js"></script>
+</body>
+</html>

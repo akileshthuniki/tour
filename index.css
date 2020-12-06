@@ -1,0 +1,202 @@
+header{height:650px;}
+.fa-rupee-sign{
+	color:rgba(0,0,0,.9);
+	font-size:16px;
+}
+.banner1,.banner2,.banner3,.banner4,.banner5{
+	 height:700px;
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 width:100%;
+	 border-bottom:5px solid rgba(0,0,0,.3);
+	 overflow:hidden;
+}
+.img1{
+	z-index:0;
+	width:100%;
+	height:700px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.text-box{
+	width:50%;
+	position:absolute;
+	top:250px;
+	left:22%;
+	color:white;
+	background:rgba(0,0,0,.3);
+	padding:30px;
+	border-radius:25px;
+	font-family:"Montserrat",sans-serif;
+}
+.text-box h1{
+	font-family: 'Sansita Swashed', cursive;
+	font-size:30px;
+}
+.text-box p{
+	font-size:25px;
+	line-height:25px;
+	text-align:right;
+}
+.banner1{animation:slide1 18s linear infinite;}
+.banner2{animation:slide2 18s linear infinite;}
+.banner3{animation:slide3 18s linear infinite;}
+.banner4{animation:slide4 18s linear infinite;}
+.banner5{animation:slide5 18s linear infinite;}
+@keyframes slide1{
+	0%{visibility:visible;}
+	20%{visibility:hidden;}
+	40%{visibility:hidden;}
+	60%{visibility:hidden;}
+	80%{visibility:hidden;}
+	100%{visibility:visible;}
+}
+@keyframes slide2{
+	0%{visibility:hidden;}
+	20%{visibility:hidden;}
+	40%{visibility:visible;}
+	60%{visibility:hidden;}
+	80%{visibility:hidden;}
+	100%{visibility:visible;}
+}
+@keyframes slide3{
+	0%{visibility:hidden;}
+	20%{visibility:hidden;}
+	40%{visibility:hidden;}
+	60%{visibility:visible;}
+	80%{visibility:hidden;}
+	100%{visibility:visible;}
+}
+@keyframes slide4{
+	0%{visibility:hidden;}
+	20%{visibility:hidden;}
+	40%{visibility:hidden;}
+	60%{visibility:hidden;}
+	80%{visibility:visible;}
+	100%{visibility:visible;}
+}
+@keyframes slide5{
+	0%{visibility:hidden;}
+	20%{visibility:hidden;}
+	40%{visibility:hidden;}
+	60%{visibility:hidden;}
+	80%{visibility:hidden;}
+	100%{visibility:visible;}
+}
+.midpage-destination{width:90%;
+		position:absolute;
+		top:730px;
+		height:100px;
+		text-align:center;
+		font-family:"Montserrat",sans-serif;
+		z-index:1;
+		}
+.midpage-destination h1{font-size:30px;
+		color:rgba(0,0,0,0.9);}	
+.midpage-destination p{font-size:18px;
+		color:rgba(0,0,0,0.7);
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;}
+.img2{height:65%;
+		width:80%;
+		border-radius:8px;
+		transition: .5s;}
+.img2:hover{margin-top:-25px;}
+.grid-container-Destination{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:250px;
+		display: grid;
+		max-width:90%;
+		justify-content: space-evenly;
+		background:yellow;
+		height:800px;
+		grid-gap: 10px;
+		box-shadow:1px 2px 3px 0 rgba(0,0,0,0.3);
+		padding: 20px;
+		border-radius:15px;
+		}
+.grid-container-Destination> div {
+			text-align: center;
+			background:white;
+			border-radius:15px;
+			box-shadow:1px 3px 3px 0 rgba(0,0,0,0.2);
+			padding-top:10px;
+			}
+.tour-text{font-family:"Montserrat",sans-serif;}	
+.tour-text h1{font-size:18px; 
+			font-weight:500;}	
+.tour-text p{font-size:18px;}	
+.recommended-hotels{width:100%;
+		position:absolute;
+		top:1800px;
+		height:100px;
+		text-align:center;
+		font-family:"Montserrat",sans-serif;
+		z-index:1;
+		}
+.recommended-hotels h1{font-size:30px;
+		color:rgba(0,0,0,0.9);}	
+.recommended-hotels p{font-size:18px;
+		color:rgba(0,0,0,0.7);
+		width:600px;
+		margin-left:auto;
+		margin-right:auto;}
+.grid-container-recommended{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:250px;
+		margin-bottom:50px;
+		display: grid;
+		max-width:90%;
+		justify-content: space-evenly;
+		background:#83EBD0;
+		height:800px;
+		grid-gap: 10px;
+		box-shadow:1px 5px 3px 0 rgba(0,0,0,0.3);
+		padding: 20px;
+		border-radius:15px;
+		}
+.grid-container-recommended> div {
+			text-align: center; 
+			background:white;
+			border-radius:15px;
+			box-shadow:1px 3px 3px 0 rgba(0,0,0,0.2);
+			padding-top:10px;
+			}
+	.item1 {grid-column: 1 / 2;
+			grid-row: 1 / 2;
+			 
+			 }
+	.item2 {grid-column: 2 / 3;
+			grid-row: 1 / 2;
+			
+			}
+	.item3 {grid-column: 3 / 4;
+				grid-row: 1 / 2;
+				
+			 }
+	.item4 {grid-column: 1 / 2;
+				grid-row: 2 / 3;
+				
+			 }
+	.item5 {grid-column: 2/ 3;
+				grid-row: 2 / 3;
+				
+			 }
+	.item6 {grid-column: 3/ 4;
+				grid-row: 2 / 3;
+				
+			 }
+	.item7 {grid-column: 4/ 5;
+				grid-row: 1 / 2;
+				
+			 }	
+	.item8 {grid-column: 4/ 5;
+				grid-row: 2 / 3; 
+				
+			 }	
+/*----------------------------------------------------------------------------------------------*/
